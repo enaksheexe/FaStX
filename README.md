@@ -2,7 +2,9 @@
 
 I built **FaStX** to solve a recurring friction point in technical workflows: transcribing handwritten equations, derivations, and matrices from whiteboards or notebooks into compilable LaTeX without dealing with conversational AI filler.
 
-Most LLM-wrappers treat optical math recognition like a chat session—returning markdown fences, unsolicited explanations, or hallucinated symbols caused by phone camera glare. I engineered **FaStX** as a strict, deterministic extraction pipeline that pairs an **OpenCV preprocessing engine** with **schema-constrained multimodal inference**, wrapped inside a zero-fluff, keyboard-first developer workbench.
+Most LLM-wrappers treat optical math recognition like a chat session returning markdown fences, unsolicited explanations, or hallucinated symbols caused by phone camera glare.
+
+ I engineered **FaStX** as a strict, deterministic extraction pipeline that pairs an **OpenCV preprocessing engine** with **schema-constrained multimodal inference**, wrapped inside a zero-fluff, keyboard-first developer workbench.
 
 ---
 
@@ -156,4 +158,4 @@ Accepts a raw image file, executes OpenCV normalization, and returns strict LaTe
 
 ## License
 
-MIT License. Built and maintained by [Your Name].
+MIT License. Built and maintained by [Enaksheexe].
